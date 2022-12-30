@@ -15,9 +15,22 @@ a {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  /* background-position-y: -18rem; */
-  width: 100%;
+  background-size: cover;
+  background-position-y: -18rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .page__main {
+    background-size: unset;
+  }
+  .buttons {
+    display: block;
+  }
+  .cover {
+    left: calc(50% - 120px);
+  }
+}
+
 .buttons {
   justify-content: center;
   display: flex;
