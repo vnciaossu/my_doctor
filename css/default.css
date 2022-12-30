@@ -10,6 +10,13 @@ body {
   color: #660086;
   overflow: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    position: absolute !important;
+  }
+}
+
 a {
   color: #00ff45;
   font-size: 14px;

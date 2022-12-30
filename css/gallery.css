@@ -4,6 +4,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: contain !important;
+  }
+}
+
 .hello {
   opacity: 1 !important;
 }
