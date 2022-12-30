@@ -6,7 +6,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-size: contain !important;
+    background-size: auto !important;
   }
 }
 
