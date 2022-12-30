@@ -21,13 +21,13 @@ a {
 
 @media only screen and (max-width: 600px) {
   .page__main {
-    background-size: unset;
+    background-size: unset !important;
   }
   .buttons {
-    display: block;
+    display: block !important;
   }
   .cover {
-    left: calc(50% - 120px);
+    left: calc(50% - 120px) !important;
   }
 }
 
